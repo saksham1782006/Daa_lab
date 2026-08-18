@@ -7,8 +7,8 @@ int linearSearch(int arr[],int n, int key){
     return -1;
 }
 int binarySearch(int arr[],int n, int key){
-    int l=0
-    int h=n-1
+    int l=0;
+    int h=n-1;
     while (l<=h){
         int mid=l+(h-l)/2;
         if(arr[mid]==key){
