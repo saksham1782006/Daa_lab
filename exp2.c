@@ -10,7 +10,7 @@ int binarySearch(int arr[],int n, int key){
     int l=0
     int h=n-1
     while (l<=h){
-        int mid=l+(h-l)/2
+        int mid=l+(h-l)/2;
         if(arr[mid]==key){
             return mid;
         }
@@ -24,7 +24,7 @@ int binarySearch(int arr[],int n, int key){
     }
     return -1;
 }
-int min(){
+int main(){
     int arr[]={10,20,30,40,50,60,70,80,90,100};
     int n=sizeof(arr)/sizeof(arr[0]);
     int key;
